@@ -16,6 +16,6 @@ resource "aws_vpc" "example" {
     cidr_block = "172.17.0.0/16"
 
     tags = {
-        name = "terraform_vpc"
+        name = "terraform_vpc1"
     }
 }
